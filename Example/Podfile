@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'DTLoadingButton_Example', :exclusive => true do
   pod 'DTLoadingButton', :path => '../'
+  pod 'SWActivityIndicatorView'
 end
 
 target 'DTLoadingButton_Tests', :exclusive => true do
