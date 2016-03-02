@@ -59,14 +59,14 @@ You can also use this with Interface Builder by dragging an UIButton to your vie
 ## Customization
 
 ```swift
-self.disabledTextColor: UIColor! = UIColor.whiteColor()
-self.enabledTextColor: UIColor! = UIColor.whiteColor()
-self.disabledBackgroundColor: UIColor! = UIColor(red: 0, green: 131.0 / 255.0, blue: 191.0 / 255.0, alpha: 1.0)
-self.enabledBackgroundColor: UIColor! = UIColor(red: 0, green: 152.0 / 255.0, blue: 215.0 / 255.0, alpha: 1.0) 
-self.indicatorViewLineWidth: CGFloat = 2.0 
-self.indicatorColor: UIColor! = UIColor.lightGrayColor() 
-self.normalText: String! = "" 
-self.loadingText: String! = "LOADING..."
+self.disabledTextColor = UIColor.whiteColor()
+self.enabledTextColor = UIColor.whiteColor()
+self.disabledBackgroundColor = UIColor(red: 0, green: 131.0 / 255.0, blue: 191.0 / 255.0, alpha: 1.0)
+self.enabledBackgroundColor = UIColor(red: 0, green: 152.0 / 255.0, blue: 215.0 / 255.0, alpha: 1.0) 
+self.indicatorViewLineWidth = 2.0 
+self.indicatorColor = UIColor.lightGrayColor() 
+self.normalText = "" 
+self.loadingText = "LOADING..."
 ```
 
 ## License
