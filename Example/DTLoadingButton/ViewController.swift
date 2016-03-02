@@ -21,5 +21,14 @@ class ViewController: UIViewController {
     @IBAction private func stopButtonDidTouch(sender: UIButton) {
         self.button.stopAnimating()
     }
+    
+    @IBAction private func changeIndicatorColorToRed(sender: UIButton) {
+        self.button.indicatorColor = UIColor.redColor()
+    }
+    
+    @IBAction private func changeIndicatorColorToBlue(sender: UIButton) {
+        self.button.indicatorColor = UIColor.blueColor()
+        let button = DTLoadingButton(type: .Custom)
+    }
 }
 
