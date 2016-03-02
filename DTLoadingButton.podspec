@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DTLoadingButton"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Custom button to show activity indicator to represent loading state."
 
 # This description is used to generate tags and improve search results.
