@@ -1,6 +1,5 @@
 # DTLoadingButton
 
-[![CI Status](http://img.shields.io/travis/Trong Cuong/DTLoadingButton.svg?style=flat)](https://travis-ci.org/Trong Cuong/DTLoadingButton)
 [![Version](https://img.shields.io/cocoapods/v/DTLoadingButton.svg?style=flat)](http://cocoapods.org/pods/DTLoadingButton)
 [![License](https://img.shields.io/cocoapods/l/DTLoadingButton.svg?style=flat)](http://cocoapods.org/pods/DTLoadingButton)
 [![Platform](https://img.shields.io/cocoapods/p/DTLoadingButton.svg?style=flat)](http://cocoapods.org/pods/DTLoadingButton)
