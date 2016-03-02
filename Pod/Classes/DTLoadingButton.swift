@@ -89,18 +89,20 @@ public class DTLoadingButton: UIButton {
     }
     
     private func calculateIndicatorViewFrame() -> CGRect {
-        let padding: CGFloat = 10.0
-        let height = self.frame.height - (padding * 2)
-        let width = height
-        let y = padding
+        let padding: CGFloat = 5
+        var y = padding
+        var height = self.frame.height - (padding * 2)
+        var width = height
+        var x = (self.frame.width / 2) - (width / 2)
         
         if let label = self.titleLabel {
-            print(label.frame)
-            let x = label.frame.origin.x - (width + padding)
+            height = label.frame.height - 5
+            width = height
+            x = label.frame.origin.x - (width + padding)
+            y = label.frame.origin.y +  ((label.frame.height - height) / 2.0)
             return CGRectMake(x, y, width, height)
         }
         
-        let x = (self.frame.width / 2) - (width / 2)
         return CGRectMake(x, y, width, height)
     }
     
@@ -112,15 +114,6 @@ public class DTLoadingButton: UIButton {
     private func stopAnimatingIndicatorView() {
         self.indicatorView.hidden = true
         self.indicatorView.stopAnimating()
-    }
-    
-    // Force to update layout immediately
-    // This is a work around for issue that
-    // title label did not update its frame 
-    // immediately right after setTitle(, forControlState) was called
-    private func updateLayout() {
-        self.titleLabel?.setNeedsLayout()
-        self.titleLabel?.layoutIfNeeded()
     }
     
     override public func drawRect(rect: CGRect) {
@@ -139,7 +132,6 @@ extension DTLoadingButton {
         self.backgroundColor = self.disabledBackgroundColor
         self.setTitleColor(self.disabledTextColor, forState: .Normal)
         self.userInteractionEnabled = false
-        self.updateLayout()
     }
     
     public func enable() {
@@ -147,7 +139,6 @@ extension DTLoadingButton {
         self.backgroundColor = self.enabledBackgroundColor
         self.setTitleColor(self.enabledTextColor, forState: .Normal)
         self.userInteractionEnabled = true
-        self.updateLayout()
     }
     
     public func startAnimating() {
