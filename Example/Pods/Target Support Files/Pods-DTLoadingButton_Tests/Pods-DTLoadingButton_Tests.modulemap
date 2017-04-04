@@ -1,0 +1,6 @@
+framework module Pods_DTLoadingButton_Tests {
+  umbrella header "Pods-DTLoadingButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
