@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'DTLoadingButton_Example', :exclusive => true do
+target 'DTLoadingButton_Example' do
   pod 'DTLoadingButton', :path => '../'
   pod 'SWActivityIndicatorView'
 end
 
-target 'DTLoadingButton_Tests', :exclusive => true do
+target 'DTLoadingButton_Tests' do
   pod 'DTLoadingButton', :path => '../'
 
   
