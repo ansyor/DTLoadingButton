@@ -1,0 +1,1154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0481A16D04AFBB80C7040A38FE3CF45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7820EF95D5C3DBFACEC2857C0B910BF5 /* Foundation.framework */; };
+		106C98406BC740E7F76C7AF214024C15 /* SWActivityIndicatorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37D7D0B95B4970C48A44E90E6132D8FA /* SWActivityIndicatorView.bundle */; };
+		20CB9873B699E468DD62FE5EAE71A43F /* Pods-DTLoadingButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E054540127934205324D16BB6E813089 /* Pods-DTLoadingButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		250693A66858604092289F6EC81E6FBC /* DTLoadingButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52BC035E992DAE807BFD348E8F7DE55C /* DTLoadingButton.bundle */; };
+		26C3B6CFF69076588B30532CC26CD267 /* SWActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B469AB5FF3CCFD27CF9A62460A42673 /* SWActivityIndicatorView-dummy.m */; };
+		4874A222F8A1C0425389AF150C3A7A87 /* SWActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B0B3E6FE250A679C04635D3D24BAFE /* SWActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E4CEE3EC310606F4BF693CAC5B2BF6F /* DTLoadingButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C8980E537D596295C355D07345E69 /* DTLoadingButton-dummy.m */; };
+		52EFBC3D4F97690B27B0D872FAA6AD33 /* Pods-DTLoadingButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B8D16749E15970F543598F68FF970 /* Pods-DTLoadingButton_Tests-dummy.m */; };
+		6145BBA1FE002F389103BA66E2EB984B /* Pods-DTLoadingButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE0B8ABE881AAA16DAC954D78DDEF3 /* Pods-DTLoadingButton_Example-dummy.m */; };
+		7C5D72E18E94D01AB48D3398F909CF04 /* SWActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BE39A2F911E7EED97B5492FE6F884 /* SWActivityIndicatorView.swift */; };
+		7DC0DD3531B553F075CE0740A4E15A73 /* DTLoadingButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC45202D67AFFAE390810B4A163EED4 /* DTLoadingButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89C03BB79176659DEECCD8980194895E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C01AB0A402EE1B3E81C179EDB28E3 /* UIKit.framework */; };
+		8DEDE50D8794DCF60CF319EA271008D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7820EF95D5C3DBFACEC2857C0B910BF5 /* Foundation.framework */; };
+		A1BE60F51FF538B3D9BCE36B2759FF0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7820EF95D5C3DBFACEC2857C0B910BF5 /* Foundation.framework */; };
+		AA9278D2E1EB4A6E5ABF1A3D06C943EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7820EF95D5C3DBFACEC2857C0B910BF5 /* Foundation.framework */; };
+		AC7CA13A226A99D66EF9A5EF02E7C7E8 /* DTLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD805F83BE24C4A2FFB2438452DB78 /* DTLoadingButton.swift */; };
+		CFA31D83322D81A2D461C0CE2C8B37AC /* SWActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67886B7A54CDDF379D92371B772041F3 /* SWActivityIndicatorView.framework */; };
+		D073FCA25DC8EB41DFC06E2B01E11F1C /* Pods-DTLoadingButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF93AB5581B6E61DE124F623D3AB58D /* Pods-DTLoadingButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38CDF1EA81E37D95E840F778E8633070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B40B05B97811294751D72A554F6BDFF;
+			remoteInfo = "DTLoadingButton-DTLoadingButton";
+		};
+		4848D4F09B7FCD16CCA2668E82F55525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A438A2A773EB30C21D2A96D1CBE3545;
+			remoteInfo = DTLoadingButton;
+		};
+		49C03C23AC37513E44215BFFE589B232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD0B999FB3EF7495CAC881589CFFB7C;
+			remoteInfo = SWActivityIndicatorView;
+		};
+		57D6C17E57A5DAA579FDDF756D3C633E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD0B999FB3EF7495CAC881589CFFB7C;
+			remoteInfo = SWActivityIndicatorView;
+		};
+		59F79DC6505CE5F38CBE5B950BF5951D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A438A2A773EB30C21D2A96D1CBE3545;
+			remoteInfo = DTLoadingButton;
+		};
+		C424911DC8C73FD386701A2FDE3B9211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AAF273D068FAFFEEA50D1FF2829BC1;
+			remoteInfo = "SWActivityIndicatorView-SWActivityIndicatorView";
+		};
+		D15813A0C473AFB6C169677238B1EB20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD0B999FB3EF7495CAC881589CFFB7C;
+			remoteInfo = SWActivityIndicatorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0586D536095648828F0E1D91C17774F2 /* SWActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		0B469AB5FF3CCFD27CF9A62460A42673 /* SWActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		0CC2301AB845F1A799E1E7FF7383B04C /* Pods-DTLoadingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTLoadingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D89859EB2227D682972F87C63C8ADB9 /* SWActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		0F8B8D16749E15970F543598F68FF970 /* Pods-DTLoadingButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTLoadingButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		28C02C4AB1BB2AE5ABDD5551F96DE554 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3198B72926E58C82A4F7DEA8860F9E27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32862C441C19656C0696E756A7F6B1B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D7D0B95B4970C48A44E90E6132D8FA /* SWActivityIndicatorView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SWActivityIndicatorView.bundle; path = SWActivityIndicatorView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		39788ADD0264B92E05E3DED4267908F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCBAB42437A7DFC222D53F413623B46 /* DTLoadingButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTLoadingButton.xcconfig; sourceTree = "<group>"; };
+		429B84D40F1944D1E64AE9EF889A3902 /* Pods-DTLoadingButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTLoadingButton_Example-resources.sh"; sourceTree = "<group>"; };
+		52BC035E992DAE807BFD348E8F7DE55C /* DTLoadingButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DTLoadingButton.bundle; path = DTLoadingButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		587E67DA1A6118E4CD41F5C6AD4B58C0 /* Pods-DTLoadingButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTLoadingButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		5DB5158C35B18B8AFB597DA8B688E8AF /* ResourceBundle-SWActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SWActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		6687E89A111534044AA81EEBB9ACF675 /* ResourceBundle-DTLoadingButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DTLoadingButton-Info.plist"; sourceTree = "<group>"; };
+		67886B7A54CDDF379D92371B772041F3 /* SWActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1181E65149D6CCCE1763B12DC5BA7A /* Pods-DTLoadingButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTLoadingButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7448C230F8506F4E858EB6021FAD449C /* Pods-DTLoadingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DTLoadingButton_Example.modulemap"; sourceTree = "<group>"; };
+		75915D65A7C6AED990BC0C24F3F563E4 /* Pods-DTLoadingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTLoadingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7820EF95D5C3DBFACEC2857C0B910BF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78AFF8E9CD1BE11E4CF72EE65EF661C9 /* Pods_DTLoadingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTLoadingButton_Example.framework; path = "Pods-DTLoadingButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8AD8A201A551647EB22045005361EA /* Pods-DTLoadingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTLoadingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		89E5958B31757A7E374AC34C2D3C2123 /* Pods-DTLoadingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DTLoadingButton_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B429FB76C00DAFBD3D6B4D5823CE1B /* Pods-DTLoadingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTLoadingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		962A714E5B4A7DA4F70F75E2CB964C99 /* Pods_DTLoadingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTLoadingButton_Tests.framework; path = "Pods-DTLoadingButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4BE39A2F911E7EED97B5492FE6F884 /* SWActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWActivityIndicatorView.swift; path = Pod/Classes/SWActivityIndicatorView.swift; sourceTree = "<group>"; };
+		ACF93AB5581B6E61DE124F623D3AB58D /* Pods-DTLoadingButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTLoadingButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B22B123429B5E05A7E3D13EBC935BC0E /* SWActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWActivityIndicatorView.framework; path = SWActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3ED44DC482F266DDB240147082F1E4 /* DTLoadingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTLoadingButton.framework; path = DTLoadingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC45202D67AFFAE390810B4A163EED4 /* DTLoadingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTLoadingButton-umbrella.h"; sourceTree = "<group>"; };
+		C2B0B3E6FE250A679C04635D3D24BAFE /* SWActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		C54C8980E537D596295C355D07345E69 /* DTLoadingButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTLoadingButton-dummy.m"; sourceTree = "<group>"; };
+		D05C01AB0A402EE1B3E81C179EDB28E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9460083BC50B7B5552495B0B93E9354 /* DTLoadingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DTLoadingButton.modulemap; sourceTree = "<group>"; };
+		E054540127934205324D16BB6E813089 /* Pods-DTLoadingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTLoadingButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		E2C93A8EE725C3CA4AE16E99D3E676A9 /* DTLoadingButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTLoadingButton-prefix.pch"; sourceTree = "<group>"; };
+		E7C1F79A11E4037353BC82DD16CB30AE /* Pods-DTLoadingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTLoadingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9AD805F83BE24C4A2FFB2438452DB78 /* DTLoadingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DTLoadingButton.swift; sourceTree = "<group>"; };
+		EB1F6EE6919289CC11C0C7310FCE6F2F /* SWActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		EFAEAF020E57AF607780379916EA56C2 /* Pods-DTLoadingButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTLoadingButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F06A69E8A14E245AC1278067F3F50F53 /* Pods-DTLoadingButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTLoadingButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FA8890CBE758E609E73BF37405428EB5 /* Pods-DTLoadingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTLoadingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBE0B8ABE881AAA16DAC954D78DDEF3 /* Pods-DTLoadingButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTLoadingButton_Example-dummy.m"; sourceTree = "<group>"; };
+		FED79B37A23C78F728398BD49CFE2C0B /* Pods-DTLoadingButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTLoadingButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7A525597EAC7CF5FC47FC488681EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0481A16D04AFBB80C7040A38FE3CF45E /* Foundation.framework in Frameworks */,
+				CFA31D83322D81A2D461C0CE2C8B37AC /* SWActivityIndicatorView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430A35CE17584BEC912A2C27DC6B47BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57137543BE382D0F50A3DD63787DCCAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4934ACF52AE1C002E21CC1936CD0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9278D2E1EB4A6E5ABF1A3D06C943EA /* Foundation.framework in Frameworks */,
+				89C03BB79176659DEECCD8980194895E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFEB17E0596E7272A04CAAD4AF4E4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEDE50D8794DCF60CF319EA271008D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05DCA0963DACD186CEF7FBDDD7A302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BE60F51FF538B3D9BCE36B2759FF0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E5EC2948C561A2D803F59BA2FE2916 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9460083BC50B7B5552495B0B93E9354 /* DTLoadingButton.modulemap */,
+				3CCBAB42437A7DFC222D53F413623B46 /* DTLoadingButton.xcconfig */,
+				C54C8980E537D596295C355D07345E69 /* DTLoadingButton-dummy.m */,
+				E2C93A8EE725C3CA4AE16E99D3E676A9 /* DTLoadingButton-prefix.pch */,
+				BEC45202D67AFFAE390810B4A163EED4 /* DTLoadingButton-umbrella.h */,
+				32862C441C19656C0696E756A7F6B1B2 /* Info.plist */,
+				6687E89A111534044AA81EEBB9ACF675 /* ResourceBundle-DTLoadingButton-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DTLoadingButton";
+			sourceTree = "<group>";
+		};
+		2ECAA8510A96006C86A5BD25567990D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA9F7F714ABB2BB5AA467107893DB60C /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		33EF7CD0A9A36CFEAC39D6E2CEBC1DEF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94E4D41EDA9981EABBF14BF93040C4E2 /* DTLoadingButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4E2804A616950703DEE8EC0FC4C83071 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				810DA44D4DAE74249746169CFFA591E1 /* Pods-DTLoadingButton_Example */,
+				F4B4698103379DC59BCF96BC2D4C47C0 /* Pods-DTLoadingButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E9DA1456BEE46DA32B500753D7BC929 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39788ADD0264B92E05E3DED4267908F1 /* Info.plist */,
+				5DB5158C35B18B8AFB597DA8B688E8AF /* ResourceBundle-SWActivityIndicatorView-Info.plist */,
+				0D89859EB2227D682972F87C63C8ADB9 /* SWActivityIndicatorView.modulemap */,
+				0586D536095648828F0E1D91C17774F2 /* SWActivityIndicatorView.xcconfig */,
+				0B469AB5FF3CCFD27CF9A62460A42673 /* SWActivityIndicatorView-dummy.m */,
+				EB1F6EE6919289CC11C0C7310FCE6F2F /* SWActivityIndicatorView-prefix.pch */,
+				C2B0B3E6FE250A679C04635D3D24BAFE /* SWActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		68C93F73543DC1A0600C56151EC8C535 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFBB708DB2D0B857BFDD0C242AE9E18B /* SWActivityIndicatorView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7318894284B3B0B2F4BA9CC96312B612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BC035E992DAE807BFD348E8F7DE55C /* DTLoadingButton.bundle */,
+				BE3ED44DC482F266DDB240147082F1E4 /* DTLoadingButton.framework */,
+				78AFF8E9CD1BE11E4CF72EE65EF661C9 /* Pods_DTLoadingButton_Example.framework */,
+				962A714E5B4A7DA4F70F75E2CB964C99 /* Pods_DTLoadingButton_Tests.framework */,
+				37D7D0B95B4970C48A44E90E6132D8FA /* SWActivityIndicatorView.bundle */,
+				B22B123429B5E05A7E3D13EBC935BC0E /* SWActivityIndicatorView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				33EF7CD0A9A36CFEAC39D6E2CEBC1DEF /* Development Pods */,
+				C5DD8672E24C462194C1A4C65D900EEB /* Frameworks */,
+				68C93F73543DC1A0600C56151EC8C535 /* Pods */,
+				7318894284B3B0B2F4BA9CC96312B612 /* Products */,
+				4E2804A616950703DEE8EC0FC4C83071 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		810DA44D4DAE74249746169CFFA591E1 /* Pods-DTLoadingButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3198B72926E58C82A4F7DEA8860F9E27 /* Info.plist */,
+				7448C230F8506F4E858EB6021FAD449C /* Pods-DTLoadingButton_Example.modulemap */,
+				E7C1F79A11E4037353BC82DD16CB30AE /* Pods-DTLoadingButton_Example-acknowledgements.markdown */,
+				EFAEAF020E57AF607780379916EA56C2 /* Pods-DTLoadingButton_Example-acknowledgements.plist */,
+				FDBE0B8ABE881AAA16DAC954D78DDEF3 /* Pods-DTLoadingButton_Example-dummy.m */,
+				7A8AD8A201A551647EB22045005361EA /* Pods-DTLoadingButton_Example-frameworks.sh */,
+				429B84D40F1944D1E64AE9EF889A3902 /* Pods-DTLoadingButton_Example-resources.sh */,
+				E054540127934205324D16BB6E813089 /* Pods-DTLoadingButton_Example-umbrella.h */,
+				FA8890CBE758E609E73BF37405428EB5 /* Pods-DTLoadingButton_Example.debug.xcconfig */,
+				95B429FB76C00DAFBD3D6B4D5823CE1B /* Pods-DTLoadingButton_Example.release.xcconfig */,
+			);
+			name = "Pods-DTLoadingButton_Example";
+			path = "Target Support Files/Pods-DTLoadingButton_Example";
+			sourceTree = "<group>";
+		};
+		94E4D41EDA9981EABBF14BF93040C4E2 /* DTLoadingButton */ = {
+			isa = PBXGroup;
+			children = (
+				2ECAA8510A96006C86A5BD25567990D9 /* Pod */,
+				19E5EC2948C561A2D803F59BA2FE2916 /* Support Files */,
+			);
+			name = DTLoadingButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C5DD8672E24C462194C1A4C65D900EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67886B7A54CDDF379D92371B772041F3 /* SWActivityIndicatorView.framework */,
+				E4B282A36856850100354D81A2790173 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4B282A36856850100354D81A2790173 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7820EF95D5C3DBFACEC2857C0B910BF5 /* Foundation.framework */,
+				D05C01AB0A402EE1B3E81C179EDB28E3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA9F7F714ABB2BB5AA467107893DB60C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD805F83BE24C4A2FFB2438452DB78 /* DTLoadingButton.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F4B4698103379DC59BCF96BC2D4C47C0 /* Pods-DTLoadingButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28C02C4AB1BB2AE5ABDD5551F96DE554 /* Info.plist */,
+				89E5958B31757A7E374AC34C2D3C2123 /* Pods-DTLoadingButton_Tests.modulemap */,
+				6B1181E65149D6CCCE1763B12DC5BA7A /* Pods-DTLoadingButton_Tests-acknowledgements.markdown */,
+				FED79B37A23C78F728398BD49CFE2C0B /* Pods-DTLoadingButton_Tests-acknowledgements.plist */,
+				0F8B8D16749E15970F543598F68FF970 /* Pods-DTLoadingButton_Tests-dummy.m */,
+				F06A69E8A14E245AC1278067F3F50F53 /* Pods-DTLoadingButton_Tests-frameworks.sh */,
+				587E67DA1A6118E4CD41F5C6AD4B58C0 /* Pods-DTLoadingButton_Tests-resources.sh */,
+				ACF93AB5581B6E61DE124F623D3AB58D /* Pods-DTLoadingButton_Tests-umbrella.h */,
+				0CC2301AB845F1A799E1E7FF7383B04C /* Pods-DTLoadingButton_Tests.debug.xcconfig */,
+				75915D65A7C6AED990BC0C24F3F563E4 /* Pods-DTLoadingButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-DTLoadingButton_Tests";
+			path = "Target Support Files/Pods-DTLoadingButton_Tests";
+			sourceTree = "<group>";
+		};
+		FFBB708DB2D0B857BFDD0C242AE9E18B /* SWActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				AC4BE39A2F911E7EED97B5492FE6F884 /* SWActivityIndicatorView.swift */,
+				4E9DA1456BEE46DA32B500753D7BC929 /* Support Files */,
+			);
+			name = SWActivityIndicatorView;
+			path = SWActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EED458407B54281955BFE62C50A27F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D073FCA25DC8EB41DFC06E2B01E11F1C /* Pods-DTLoadingButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4605B82815572C14F57A867F6BB302D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CB9873B699E468DD62FE5EAE71A43F /* Pods-DTLoadingButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD3D852BDDB5BAF64DF51320321AD71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC0DD3531B553F075CE0740A4E15A73 /* DTLoadingButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC3DCD46752070CFD26CBD9958C4FBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4874A222F8A1C0425389AF150C3A7A87 /* SWActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10AAF273D068FAFFEEA50D1FF2829BC1 /* SWActivityIndicatorView-SWActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE5EB90B49A05469D7A08B718FA9A34 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView-SWActivityIndicatorView" */;
+			buildPhases = (
+				FE2944843154BBD46D4DAABEE72DCA4C /* Sources */,
+				430A35CE17584BEC912A2C27DC6B47BE /* Frameworks */,
+				E6EB02BE28BA92A4005D5A1EDA6C0E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SWActivityIndicatorView-SWActivityIndicatorView";
+			productName = "SWActivityIndicatorView-SWActivityIndicatorView";
+			productReference = 37D7D0B95B4970C48A44E90E6132D8FA /* SWActivityIndicatorView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		200577D60F161B9F864862DFD480720A /* Pods-DTLoadingButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22167BC0CF3CF1CA4C0D08EC07B9EAA4 /* Build configuration list for PBXNativeTarget "Pods-DTLoadingButton_Tests" */;
+			buildPhases = (
+				0497AE5D16229C2111F7A3BBD24021EF /* Sources */,
+				9CFEB17E0596E7272A04CAAD4AF4E4E2 /* Frameworks */,
+				0EED458407B54281955BFE62C50A27F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45E652C368B12A19870A9E847182FD13 /* PBXTargetDependency */,
+				C7BAF0F4DDBECCF8D37232327F823FBE /* PBXTargetDependency */,
+			);
+			name = "Pods-DTLoadingButton_Tests";
+			productName = "Pods-DTLoadingButton_Tests";
+			productReference = 962A714E5B4A7DA4F70F75E2CB964C99 /* Pods_DTLoadingButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		295BBDB855BC3DBDA2AE0981CEC4D2C1 /* Pods-DTLoadingButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4324CFD556F5E70645A8B5BEF51547 /* Build configuration list for PBXNativeTarget "Pods-DTLoadingButton_Example" */;
+			buildPhases = (
+				CDD6AB39D6C5FED984713FD881801161 /* Sources */,
+				EE05DCA0963DACD186CEF7FBDDD7A302 /* Frameworks */,
+				4605B82815572C14F57A867F6BB302D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BBA8E08BE9EC094382A776A0629F590 /* PBXTargetDependency */,
+				62FFC50A5DEE33DD63991FFE55AC681A /* PBXTargetDependency */,
+			);
+			name = "Pods-DTLoadingButton_Example";
+			productName = "Pods-DTLoadingButton_Example";
+			productReference = 78AFF8E9CD1BE11E4CF72EE65EF661C9 /* Pods_DTLoadingButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A438A2A773EB30C21D2A96D1CBE3545 /* DTLoadingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A3CC114E118F37976145434CA8791E /* Build configuration list for PBXNativeTarget "DTLoadingButton" */;
+			buildPhases = (
+				899783DAC30E913AAAE24A85E2CD4C78 /* Sources */,
+				1F7A525597EAC7CF5FC47FC488681EE3 /* Frameworks */,
+				87A031EAE5E497D07A6B14CDABBED95D /* Resources */,
+				CFD3D852BDDB5BAF64DF51320321AD71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A644535386E51D07E482A5002481F570 /* PBXTargetDependency */,
+				0F835391C0505E3F40F1DBD36FD6CA5F /* PBXTargetDependency */,
+			);
+			name = DTLoadingButton;
+			productName = DTLoadingButton;
+			productReference = BE3ED44DC482F266DDB240147082F1E4 /* DTLoadingButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B40B05B97811294751D72A554F6BDFF /* DTLoadingButton-DTLoadingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B43CA34C5B203182EE7B4AEB2064CC /* Build configuration list for PBXNativeTarget "DTLoadingButton-DTLoadingButton" */;
+			buildPhases = (
+				97994D99F09726C54BC4EE95CA6B1489 /* Sources */,
+				57137543BE382D0F50A3DD63787DCCAB /* Frameworks */,
+				845AA9C8B4A1FB930AD2E6694F58725B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DTLoadingButton-DTLoadingButton";
+			productName = "DTLoadingButton-DTLoadingButton";
+			productReference = 52BC035E992DAE807BFD348E8F7DE55C /* DTLoadingButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8DD0B999FB3EF7495CAC881589CFFB7C /* SWActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD17558B3966452CA87AD6B2D3CBBE01 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView" */;
+			buildPhases = (
+				6115D6A4EC00FBC2D9B08B7C5B742225 /* Sources */,
+				9B4934ACF52AE1C002E21CC1936CD0F3 /* Frameworks */,
+				B3BC78D437EEA3CC27439330690CCA3C /* Resources */,
+				FFC3DCD46752070CFD26CBD9958C4FBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD474E447E61BB50DF6902875AC45FD4 /* PBXTargetDependency */,
+			);
+			name = SWActivityIndicatorView;
+			productName = SWActivityIndicatorView;
+			productReference = B22B123429B5E05A7E3D13EBC935BC0E /* SWActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7318894284B3B0B2F4BA9CC96312B612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A438A2A773EB30C21D2A96D1CBE3545 /* DTLoadingButton */,
+				2B40B05B97811294751D72A554F6BDFF /* DTLoadingButton-DTLoadingButton */,
+				295BBDB855BC3DBDA2AE0981CEC4D2C1 /* Pods-DTLoadingButton_Example */,
+				200577D60F161B9F864862DFD480720A /* Pods-DTLoadingButton_Tests */,
+				8DD0B999FB3EF7495CAC881589CFFB7C /* SWActivityIndicatorView */,
+				10AAF273D068FAFFEEA50D1FF2829BC1 /* SWActivityIndicatorView-SWActivityIndicatorView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845AA9C8B4A1FB930AD2E6694F58725B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A031EAE5E497D07A6B14CDABBED95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250693A66858604092289F6EC81E6FBC /* DTLoadingButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BC78D437EEA3CC27439330690CCA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106C98406BC740E7F76C7AF214024C15 /* SWActivityIndicatorView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EB02BE28BA92A4005D5A1EDA6C0E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0497AE5D16229C2111F7A3BBD24021EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFBC3D4F97690B27B0D872FAA6AD33 /* Pods-DTLoadingButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6115D6A4EC00FBC2D9B08B7C5B742225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C3B6CFF69076588B30532CC26CD267 /* SWActivityIndicatorView-dummy.m in Sources */,
+				7C5D72E18E94D01AB48D3398F909CF04 /* SWActivityIndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899783DAC30E913AAAE24A85E2CD4C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4CEE3EC310606F4BF693CAC5B2BF6F /* DTLoadingButton-dummy.m in Sources */,
+				AC7CA13A226A99D66EF9A5EF02E7C7E8 /* DTLoadingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97994D99F09726C54BC4EE95CA6B1489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD6AB39D6C5FED984713FD881801161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145BBA1FE002F389103BA66E2EB984B /* Pods-DTLoadingButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2944843154BBD46D4DAABEE72DCA4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F835391C0505E3F40F1DBD36FD6CA5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWActivityIndicatorView;
+			target = 8DD0B999FB3EF7495CAC881589CFFB7C /* SWActivityIndicatorView */;
+			targetProxy = 57D6C17E57A5DAA579FDDF756D3C633E /* PBXContainerItemProxy */;
+		};
+		45E652C368B12A19870A9E847182FD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTLoadingButton;
+			target = 2A438A2A773EB30C21D2A96D1CBE3545 /* DTLoadingButton */;
+			targetProxy = 4848D4F09B7FCD16CCA2668E82F55525 /* PBXContainerItemProxy */;
+		};
+		5BBA8E08BE9EC094382A776A0629F590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTLoadingButton;
+			target = 2A438A2A773EB30C21D2A96D1CBE3545 /* DTLoadingButton */;
+			targetProxy = 59F79DC6505CE5F38CBE5B950BF5951D /* PBXContainerItemProxy */;
+		};
+		62FFC50A5DEE33DD63991FFE55AC681A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWActivityIndicatorView;
+			target = 8DD0B999FB3EF7495CAC881589CFFB7C /* SWActivityIndicatorView */;
+			targetProxy = D15813A0C473AFB6C169677238B1EB20 /* PBXContainerItemProxy */;
+		};
+		A644535386E51D07E482A5002481F570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DTLoadingButton-DTLoadingButton";
+			target = 2B40B05B97811294751D72A554F6BDFF /* DTLoadingButton-DTLoadingButton */;
+			targetProxy = 38CDF1EA81E37D95E840F778E8633070 /* PBXContainerItemProxy */;
+		};
+		BD474E447E61BB50DF6902875AC45FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SWActivityIndicatorView-SWActivityIndicatorView";
+			target = 10AAF273D068FAFFEEA50D1FF2829BC1 /* SWActivityIndicatorView-SWActivityIndicatorView */;
+			targetProxy = C424911DC8C73FD386701A2FDE3B9211 /* PBXContainerItemProxy */;
+		};
+		C7BAF0F4DDBECCF8D37232327F823FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWActivityIndicatorView;
+			target = 8DD0B999FB3EF7495CAC881589CFFB7C /* SWActivityIndicatorView */;
+			targetProxy = 49C03C23AC37513E44215BFFE589B232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14CD8A91B52C461E2DDEC89E8649C7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8890CBE758E609E73BF37405428EB5 /* Pods-DTLoadingButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTLoadingButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTLoadingButton_Example/Pods-DTLoadingButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTLoadingButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50915168DDA6888039B96376379726E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0586D536095648828F0E1D91C17774F2 /* SWActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SWActivityIndicatorView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/ResourceBundle-SWActivityIndicatorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SWActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		55CD1B20B297A90CA70EB4D08C76A4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B429FB76C00DAFBD3D6B4D5823CE1B /* Pods-DTLoadingButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTLoadingButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTLoadingButton_Example/Pods-DTLoadingButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTLoadingButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65A3CDCE5A425DFE3E3BEBAD18519DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0586D536095648828F0E1D91C17774F2 /* SWActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		679D41B7B48B45662E77E46191F8B77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0586D536095648828F0E1D91C17774F2 /* SWActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWActivityIndicatorView/SWActivityIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		879B10BF8531C608D8EA06864B18AD38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCBAB42437A7DFC222D53F413623B46 /* DTLoadingButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTLoadingButton/DTLoadingButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTLoadingButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTLoadingButton/DTLoadingButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DTLoadingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90F3BB3BF5B1A3BB90F6DFC6DFB40F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCBAB42437A7DFC222D53F413623B46 /* DTLoadingButton.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DTLoadingButton";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/DTLoadingButton/ResourceBundle-DTLoadingButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DTLoadingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4C720C60E4BA467CB095343D7E97C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCBAB42437A7DFC222D53F413623B46 /* DTLoadingButton.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DTLoadingButton";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/DTLoadingButton/ResourceBundle-DTLoadingButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DTLoadingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C40F59716D7FD3C10DC0F462DCCD18C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCBAB42437A7DFC222D53F413623B46 /* DTLoadingButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTLoadingButton/DTLoadingButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTLoadingButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTLoadingButton/DTLoadingButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DTLoadingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5306E21111A5BBDFA4186CE6E792D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75915D65A7C6AED990BC0C24F3F563E4 /* Pods-DTLoadingButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTLoadingButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTLoadingButton_Tests/Pods-DTLoadingButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTLoadingButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7D8CF9BDDB1281FEF53E3D0735D0563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC2301AB845F1A799E1E7FF7383B04C /* Pods-DTLoadingButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTLoadingButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTLoadingButton_Tests/Pods-DTLoadingButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTLoadingButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF8308766BD5625D8600E59C69DAFEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0586D536095648828F0E1D91C17774F2 /* SWActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SWActivityIndicatorView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SWActivityIndicatorView/ResourceBundle-SWActivityIndicatorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SWActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E4324CFD556F5E70645A8B5BEF51547 /* Build configuration list for PBXNativeTarget "Pods-DTLoadingButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CD8A91B52C461E2DDEC89E8649C7BE /* Debug */,
+				55CD1B20B297A90CA70EB4D08C76A4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22167BC0CF3CF1CA4C0D08EC07B9EAA4 /* Build configuration list for PBXNativeTarget "Pods-DTLoadingButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D8CF9BDDB1281FEF53E3D0735D0563 /* Debug */,
+				C5306E21111A5BBDFA4186CE6E792D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD17558B3966452CA87AD6B2D3CBBE01 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679D41B7B48B45662E77E46191F8B77C /* Debug */,
+				65A3CDCE5A425DFE3E3BEBAD18519DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B43CA34C5B203182EE7B4AEB2064CC /* Build configuration list for PBXNativeTarget "DTLoadingButton-DTLoadingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C720C60E4BA467CB095343D7E97C4F /* Debug */,
+				90F3BB3BF5B1A3BB90F6DFC6DFB40F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A3CC114E118F37976145434CA8791E /* Build configuration list for PBXNativeTarget "DTLoadingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879B10BF8531C608D8EA06864B18AD38 /* Debug */,
+				C40F59716D7FD3C10DC0F462DCCD18C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE5EB90B49A05469D7A08B718FA9A34 /* Build configuration list for PBXNativeTarget "SWActivityIndicatorView-SWActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8308766BD5625D8600E59C69DAFEC0 /* Debug */,
+				50915168DDA6888039B96376379726E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

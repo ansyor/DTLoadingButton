@@ -1,0 +1,6 @@
+framework module DTLoadingButton {
+  umbrella header "DTLoadingButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

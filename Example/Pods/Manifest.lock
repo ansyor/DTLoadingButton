@@ -1,0 +1,20 @@
+PODS:
+  - DTLoadingButton (0.1.1):
+    - SWActivityIndicatorView
+  - SWActivityIndicatorView (1.0.0)
+
+DEPENDENCIES:
+  - DTLoadingButton (from `../`)
+  - SWActivityIndicatorView
+
+EXTERNAL SOURCES:
+  DTLoadingButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DTLoadingButton: ef40558d6178275a301b8445d75951971c8743cf
+  SWActivityIndicatorView: 950f50c2e6fec7338d13c8b95c1a6c9fca4f516f
+
+PODFILE CHECKSUM: 43e6445036dd28aa3670fea8b1cc7019172c75ad
+
+COCOAPODS: 1.1.1
