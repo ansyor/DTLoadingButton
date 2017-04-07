@@ -83,39 +83,39 @@
 		0586D536095648828F0E1D91C17774F2 /* SWActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 		0B469AB5FF3CCFD27CF9A62460A42673 /* SWActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
 		0CC2301AB845F1A799E1E7FF7383B04C /* Pods-DTLoadingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTLoadingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0D89859EB2227D682972F87C63C8ADB9 /* SWActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		0D89859EB2227D682972F87C63C8ADB9 /* SWActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWActivityIndicatorView.modulemap; sourceTree = "<group>"; };
 		0F8B8D16749E15970F543598F68FF970 /* Pods-DTLoadingButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTLoadingButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		28C02C4AB1BB2AE5ABDD5551F96DE554 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3198B72926E58C82A4F7DEA8860F9E27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32862C441C19656C0696E756A7F6B1B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37D7D0B95B4970C48A44E90E6132D8FA /* SWActivityIndicatorView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SWActivityIndicatorView.bundle; path = SWActivityIndicatorView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D7D0B95B4970C48A44E90E6132D8FA /* SWActivityIndicatorView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWActivityIndicatorView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		39788ADD0264B92E05E3DED4267908F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CCBAB42437A7DFC222D53F413623B46 /* DTLoadingButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTLoadingButton.xcconfig; sourceTree = "<group>"; };
 		429B84D40F1944D1E64AE9EF889A3902 /* Pods-DTLoadingButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTLoadingButton_Example-resources.sh"; sourceTree = "<group>"; };
-		52BC035E992DAE807BFD348E8F7DE55C /* DTLoadingButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DTLoadingButton.bundle; path = DTLoadingButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BC035E992DAE807BFD348E8F7DE55C /* DTLoadingButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTLoadingButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		587E67DA1A6118E4CD41F5C6AD4B58C0 /* Pods-DTLoadingButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTLoadingButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		5DB5158C35B18B8AFB597DA8B688E8AF /* ResourceBundle-SWActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SWActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
 		6687E89A111534044AA81EEBB9ACF675 /* ResourceBundle-DTLoadingButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DTLoadingButton-Info.plist"; sourceTree = "<group>"; };
 		67886B7A54CDDF379D92371B772041F3 /* SWActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1181E65149D6CCCE1763B12DC5BA7A /* Pods-DTLoadingButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTLoadingButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7448C230F8506F4E858EB6021FAD449C /* Pods-DTLoadingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DTLoadingButton_Example.modulemap"; sourceTree = "<group>"; };
+		7448C230F8506F4E858EB6021FAD449C /* Pods-DTLoadingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DTLoadingButton_Example.modulemap"; sourceTree = "<group>"; };
 		75915D65A7C6AED990BC0C24F3F563E4 /* Pods-DTLoadingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTLoadingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7820EF95D5C3DBFACEC2857C0B910BF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78AFF8E9CD1BE11E4CF72EE65EF661C9 /* Pods_DTLoadingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTLoadingButton_Example.framework; path = "Pods-DTLoadingButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AFF8E9CD1BE11E4CF72EE65EF661C9 /* Pods_DTLoadingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTLoadingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8AD8A201A551647EB22045005361EA /* Pods-DTLoadingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTLoadingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		89E5958B31757A7E374AC34C2D3C2123 /* Pods-DTLoadingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DTLoadingButton_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89E5958B31757A7E374AC34C2D3C2123 /* Pods-DTLoadingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DTLoadingButton_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95B429FB76C00DAFBD3D6B4D5823CE1B /* Pods-DTLoadingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTLoadingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		962A714E5B4A7DA4F70F75E2CB964C99 /* Pods_DTLoadingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTLoadingButton_Tests.framework; path = "Pods-DTLoadingButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		962A714E5B4A7DA4F70F75E2CB964C99 /* Pods_DTLoadingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTLoadingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4BE39A2F911E7EED97B5492FE6F884 /* SWActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWActivityIndicatorView.swift; path = Pod/Classes/SWActivityIndicatorView.swift; sourceTree = "<group>"; };
 		ACF93AB5581B6E61DE124F623D3AB58D /* Pods-DTLoadingButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTLoadingButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B22B123429B5E05A7E3D13EBC935BC0E /* SWActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWActivityIndicatorView.framework; path = SWActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE3ED44DC482F266DDB240147082F1E4 /* DTLoadingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTLoadingButton.framework; path = DTLoadingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22B123429B5E05A7E3D13EBC935BC0E /* SWActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3ED44DC482F266DDB240147082F1E4 /* DTLoadingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTLoadingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC45202D67AFFAE390810B4A163EED4 /* DTLoadingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTLoadingButton-umbrella.h"; sourceTree = "<group>"; };
 		C2B0B3E6FE250A679C04635D3D24BAFE /* SWActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
 		C54C8980E537D596295C355D07345E69 /* DTLoadingButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTLoadingButton-dummy.m"; sourceTree = "<group>"; };
 		D05C01AB0A402EE1B3E81C179EDB28E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D9460083BC50B7B5552495B0B93E9354 /* DTLoadingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DTLoadingButton.modulemap; sourceTree = "<group>"; };
+		D9460083BC50B7B5552495B0B93E9354 /* DTLoadingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DTLoadingButton.modulemap; sourceTree = "<group>"; };
 		E054540127934205324D16BB6E813089 /* Pods-DTLoadingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTLoadingButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		E2C93A8EE725C3CA4AE16E99D3E676A9 /* DTLoadingButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTLoadingButton-prefix.pch"; sourceTree = "<group>"; };
 		E7C1F79A11E4037353BC82DD16CB30AE /* Pods-DTLoadingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTLoadingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -200,7 +200,6 @@
 			children = (
 				EA9F7F714ABB2BB5AA467107893DB60C /* Classes */,
 			);
-			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -320,7 +319,6 @@
 			children = (
 				E9AD805F83BE24C4A2FFB2438452DB78 /* DTLoadingButton.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -348,7 +346,6 @@
 				AC4BE39A2F911E7EED97B5492FE6F884 /* SWActivityIndicatorView.swift */,
 				4E9DA1456BEE46DA32B500753D7BC929 /* Support Files */,
 			);
-			name = SWActivityIndicatorView;
 			path = SWActivityIndicatorView;
 			sourceTree = "<group>";
 		};
@@ -509,6 +506,20 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					200577D60F161B9F864862DFD480720A = {
+						LastSwiftMigration = 0820;
+					};
+					295BBDB855BC3DBDA2AE0981CEC4D2C1 = {
+						LastSwiftMigration = 0820;
+					};
+					2A438A2A773EB30C21D2A96D1CBE3545 = {
+						LastSwiftMigration = 0820;
+					};
+					8DD0B999FB3EF7495CAC881589CFFB7C = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -692,6 +703,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -744,6 +756,7 @@
 				PRODUCT_NAME = Pods_DTLoadingButton_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -775,6 +788,7 @@
 				PRODUCT_NAME = SWActivityIndicatorView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -807,6 +821,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -839,6 +854,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -988,6 +1004,7 @@
 				PRODUCT_NAME = DTLoadingButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1023,6 +1040,7 @@
 				PRODUCT_NAME = Pods_DTLoadingButton_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1059,6 +1077,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

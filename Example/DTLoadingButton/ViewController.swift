@@ -7,18 +7,18 @@ import UIKit
 import DTLoadingButton
 
 class ViewController: UIViewController {
-    @IBOutlet private weak var button: DTLoadingButton!
+    @IBOutlet fileprivate weak var button: DTLoadingButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    @IBAction private func startButtonDidTouch(sender: UIButton) {
+    @IBAction fileprivate func startButtonDidTouch(_ sender: UIButton) {
         self.button.startAnimating()
     }
     
-    @IBAction private func stopButtonDidTouch(sender: UIButton) {
+    @IBAction fileprivate func stopButtonDidTouch(_ sender: UIButton) {
         self.button.stopAnimating()
     }
 }
