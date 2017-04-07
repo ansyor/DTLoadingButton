@@ -10,41 +10,41 @@ import SWActivityIndicatorView
 // MARK: Initialize and default setup
 //
 @IBDesignable
-public class DTLoadingButton: UIButton {
-    private var indicatorView: SWActivityIndicatorView = SWActivityIndicatorView(frame: CGRectZero)
+open class DTLoadingButton: UIButton {
+    fileprivate var indicatorView: SWActivityIndicatorView = SWActivityIndicatorView(frame: CGRect.zero)
     
-    @IBInspectable public var disabledTextColor: UIColor! = UIColor.whiteColor()
-    @IBInspectable public var enabledTextColor: UIColor! = UIColor.whiteColor() {
+    @IBInspectable open var disabledTextColor: UIColor! = UIColor.white
+    @IBInspectable open var enabledTextColor: UIColor! = UIColor.white {
         didSet {
-            self.setTitleColor(self.enabledTextColor, forState: .Normal)
+            self.setTitleColor(self.enabledTextColor, for: UIControlState())
         }
     }
     
-    @IBInspectable public var disabledBackgroundColor: UIColor! = UIColor(red: 0, green: 131.0 / 255.0, blue: 191.0 / 255.0, alpha: 1.0)
-    @IBInspectable public var enabledBackgroundColor: UIColor! = UIColor(red: 0, green: 152.0 / 255.0, blue: 215.0 / 255.0, alpha: 1.0) {
+    @IBInspectable open var disabledBackgroundColor: UIColor! = UIColor(red: 0, green: 131.0 / 255.0, blue: 191.0 / 255.0, alpha: 1.0)
+    @IBInspectable open var enabledBackgroundColor: UIColor! = UIColor(red: 0, green: 152.0 / 255.0, blue: 215.0 / 255.0, alpha: 1.0) {
         didSet {
             self.backgroundColor = self.enabledBackgroundColor
         }
     }
     
-    @IBInspectable public var indicatorViewLineWidth: CGFloat = 2.0 {
+    @IBInspectable open var indicatorViewLineWidth: CGFloat = 2.0 {
         didSet {
             self.indicatorView.lineWidth = self.indicatorViewLineWidth
         }
     }
     
-    @IBInspectable public var indicatorColor: UIColor! = UIColor.lightGrayColor() {
+    @IBInspectable open var indicatorColor: UIColor! = UIColor.lightGray {
         didSet {
             self.indicatorView.color = self.indicatorColor
         }
     }
     
-    @IBInspectable public var normalText: String! = "" {
+    @IBInspectable open var normalText: String! = "" {
         didSet {
-            self.setTitle(self.normalText, forState: .Normal)
+            self.setTitle(self.normalText, for: UIControlState())
         }
     }
-    @IBInspectable public var loadingText: String! = "LOADING..."
+    @IBInspectable open var loadingText: String! = "LOADING..."
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -58,37 +58,37 @@ public class DTLoadingButton: UIButton {
         self.commonInit()
     }
     
-    private func commonInit() {
+    fileprivate func commonInit() {
         self.initIndicatorView()
         self.initView()
     }
     
-    private func initIndicatorView() {
+    fileprivate func initIndicatorView() {
         self.indicatorView.lineWidth = self.indicatorViewLineWidth
         self.indicatorView.color = self.indicatorColor
         self.indicatorView.backgroundColor = self.enabledBackgroundColor
-        self.indicatorView.hidden = true
+        self.indicatorView.isHidden = true
     }
     
-    private func initView() {
+    fileprivate func initView() {
         self.backgroundColor = self.enabledBackgroundColor
-        self.setTitleColor(self.enabledTextColor, forState: .Normal)
-        self.setTitle(self.normalText, forState: .Normal)
+        self.setTitleColor(self.enabledTextColor, for: UIControlState())
+        self.setTitle(self.normalText, for: UIControlState())
     }
     
-    private func setupIndicatorView() {
+    fileprivate func setupIndicatorView() {
         self.indicatorView.removeFromSuperview()
         self.indicatorView.frame = self.calculateIndicatorViewFrame()
         self.indicatorView.backgroundColor = self.disabledBackgroundColor
         
         self.addSubview(indicatorView)
         
-        if !self.indicatorView.hidden {
+        if !self.indicatorView.isHidden {
             self.indicatorView.startAnimating()
         }
     }
     
-    private func calculateIndicatorViewFrame() -> CGRect {
+    fileprivate func calculateIndicatorViewFrame() -> CGRect {
         let padding: CGFloat = 5
         var y = padding
         var height = self.frame.height - (padding * 2)
@@ -100,26 +100,26 @@ public class DTLoadingButton: UIButton {
             width = height
             x = label.frame.origin.x - (width + padding)
             y = label.frame.origin.y +  ((label.frame.height - height) / 2.0)
-            return CGRectMake(x, y, width, height)
+            return CGRect(x: x, y: y, width: width, height: height)
         }
         
-        return CGRectMake(x, y, width, height)
+        return CGRect(x: x, y: y, width: width, height: height)
     }
     
-    private func startAnimatingIndicatorView() {
-        self.indicatorView.hidden = false
+    fileprivate func startAnimatingIndicatorView() {
+        self.indicatorView.isHidden = false
         self.indicatorView.startAnimating()
     }
     
-    private func stopAnimatingIndicatorView() {
-        self.indicatorView.hidden = true
+    fileprivate func stopAnimatingIndicatorView() {
+        self.indicatorView.isHidden = true
         self.indicatorView.stopAnimating()
     }
     
-    override public func drawRect(rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         self.setupIndicatorView()
         
-        super.drawRect(rect)
+        super.draw(rect)
     }
 }
 
@@ -128,17 +128,17 @@ public class DTLoadingButton: UIButton {
 //
 extension DTLoadingButton {
     public func disable() {
-        self.setTitle(self.loadingText, forState: .Normal)
+        self.setTitle(self.loadingText, for: UIControlState())
         self.backgroundColor = self.disabledBackgroundColor
-        self.setTitleColor(self.disabledTextColor, forState: .Normal)
-        self.userInteractionEnabled = false
+        self.setTitleColor(self.disabledTextColor, for: UIControlState())
+        self.isUserInteractionEnabled = false
     }
     
     public func enable() {
-        self.setTitle(self.normalText, forState: .Normal)
+        self.setTitle(self.normalText, for: UIControlState())
         self.backgroundColor = self.enabledBackgroundColor
-        self.setTitleColor(self.enabledTextColor, forState: .Normal)
-        self.userInteractionEnabled = true
+        self.setTitleColor(self.enabledTextColor, for: UIControlState())
+        self.isUserInteractionEnabled = true
     }
     
     public func startAnimating() {
